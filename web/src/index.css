@@ -16,6 +16,7 @@
 
 @import "tailwindcss";
 
+/* THEMES */
 @theme{
   --font-bebas: Bebas, "sans-serif";
   --font-sora: Sora, "sans-serif";
