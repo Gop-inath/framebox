@@ -1,4 +1,7 @@
 import { useState } from 'react'
+import Navbar from './components/Navbar'
+import { Routes, Route } from 'react-router-dom'
+import Films from './pages/Films'
 
 
 function App() {
@@ -6,7 +9,10 @@ function App() {
 
   return (
     <>
-  <h1 className='font-inter text-6xl text-amber-300'>This is the test</h1>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Films/>} />
+      </Routes>
     </>
   )
 }
